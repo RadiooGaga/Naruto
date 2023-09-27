@@ -1,0 +1,98 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+}
+
+main {
+    min-height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header {
+    padding-top: 20px;
+    text-align: center;
+    background-color: rgba(63, 110, 230, 0.599);  
+}
+nav {
+    background-color:  rgba(63, 110, 230, 0.599);
+    width: 100%;
+    padding-top: 3px;
+    justify-content: center;
+}
+
+
+.menu-amarillo, .menu-naranja {
+    background-color: yellow;
+    border-radius: 0%;
+    display:inline-flex;
+    justify-content:center;
+    width: 45%;
+    margin-left: 0%; 
+}
+
+.menu-naranja {
+    background-color: rgb(255, 162, 0);
+}
+
+a {
+    text-decoration: none;
+    color: rgb(69, 68, 68);
+}
+
+#about, #skills {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 16px 8px 16px;
+    text-align: center;
+    align-items: center;
+    color: rgb(76, 75, 75);
+}
+
+#about > p {
+    width: 80%;
+}
+
+ul {
+    align-items: center;
+    justify-content: center;
+}
+
+li {
+
+    border-radius: 5px;
+    padding: 1em;
+    margin: 14px;
+    font-size: 12px;
+    color:rgb(26, 25, 25);
+    background-color: rgba(63, 110, 230, 0.599);
+    display:inline-flex;
+  }
+
+@media (min-width: 320px) {
+    footer {
+      bottom: 0;
+    }
+}
+
+@media (min-width: 320px) {
+    .menu {
+    display: flex;
+    flex-direction: row;
+      
+    }
+}
+
+
+
+footer {
+    position: relative;
+    text-align: center;
+    width: 100%;
+    padding: 8px 0px;
+    background-color: rgb(249, 165, 56);
+}
